@@ -4,7 +4,7 @@ import "./Card.css"
 const Card = ({ item }) => {
   return (
     <div className="col-md-4 mb-4">
-      <div className="card " style={{ width: "25rem" }}>
+      <div className="card " style={{ width: "18rem" }}>
         <img src={item.image} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title" ><b>{item.head}</b></h5>
